@@ -24,4 +24,13 @@ export class ProductsPage {
   async viewCart() {
     await this.page.getByText('View Cart').click();
   }
+
+  async searchProduct(productName: string) {
+
+    await this.page
+        .getByPlaceholder('Search Product')
+        .fill(productName);
+
+    await this.page.locator('[id="submit_search"]').click();
+}
 }
