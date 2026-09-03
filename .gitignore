@@ -169,3 +169,6 @@ env/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Playwright
+/playwright/.auth/
