@@ -14,7 +14,7 @@ test.describe('Login', () => {
 
     await expect (loginPage.loginTitle).toBeVisible();
     await loginPage.login(
-        'test@example.com', 
+        'alfiyandzz@example.com', 
         'Password123'
     );
     
