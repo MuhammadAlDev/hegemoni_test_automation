@@ -141,3 +141,31 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Playwright Test Results & Reports
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Playwright Browser Binaries
+/ms-playwright/
+
+# Node Dependencies (jika pakai JavaScript/TypeScript)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python & Virtual Environment (jika pakai Python)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Editor & System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
