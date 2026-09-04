@@ -50,6 +50,7 @@ npx playwright test
 
 ### Run smoke
 
+cd .\hegemoni_test_automation
 npx playwright test --grep "@smoke"
 
 ### Run regression
