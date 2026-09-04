@@ -56,6 +56,9 @@ npx playwright test --grep "@smoke"
 
 npx playwright test --grep @regression
 
+### Run api
+npx playwright test --grep @api
+
 ### Generate report
 
 npx playwright show-report
