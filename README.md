@@ -50,7 +50,7 @@ npx playwright test
 
 ### Run smoke
 
-npx playwright test --grep @smoke
+npx playwright test --grep "@smoke"
 
 ### Run regression
 
